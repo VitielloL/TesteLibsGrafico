@@ -1,21 +1,60 @@
-# Gráficos Combinados: Barra e Linha
+# Exemplos de Gráficos Combinados em HTML
 
-Este repositório contém exemplos de gráficos combinados (barra e linha) usando quatro bibliotecas de gráficos populares: Chart.js, Highcharts, Plotly.js e ApexCharts. Cada exemplo está configurado com código HTML e JavaScript para facilitar a implementação e visualização dos gráficos.
+Este repositório apresenta demos simples e funcionais de gráficos combinados de barras + linha usando quatro bibliotecas JavaScript populares:
 
-## Bibliotecas Utilizadas
+- **Chart.js**
+- **Highcharts**
+- **Plotly.js**
+- **ApexCharts**
 
-1. **Chart.js**
-   - Chart.js é uma biblioteca de gráficos JavaScript simples e flexível que suporta diversos tipos de gráficos, incluindo gráficos combinados.
-   - Documentação: [Chart.js Documentation](https://www.chartjs.org/docs/latest/)
+O objetivo é facilitar a comparação de sintaxe e estilo entre as bibliotecas, ajudando você a testar rapidamente cada solução no navegador.
 
-2. **Highcharts**
-   - Highcharts é uma biblioteca de gráficos rica em recursos que oferece uma ampla variedade de tipos de gráficos, incluindo gráficos combinados.
-   - Documentação: [Highcharts Documentation](https://www.highcharts.com/docs)
+## 🚀 Por que usar este repositório?
 
-3. **Plotly.js**
-   - Plotly.js é uma biblioteca de gráficos interativos que suporta muitos tipos de gráficos, incluindo gráficos combinados.
-   - Documentação: [Plotly.js Documentation](https://plotly.com/javascript/)
+- Exemplo prático de gráfico combinado (barra + linha)
+- Implementação estática em HTML pronta para abrir no navegador
+- Demonstração de quatro bibliotecas diferentes em um único projeto
+- Ideal para estudo, protótipo ou apresentação de dashboards
 
-4. **ApexCharts**
-   - ApexCharts é uma poderosa biblioteca de gráficos JavaScript que suporta uma ampla variedade de tipos de gráficos, incluindo gráficos combinados de barras e linhas.
-   - Documentação: [ApexCharts Documentation](https://apexcharts.com/docs/)
+## 📁 Estrutura do projeto
+
+- `index.html` — página inicial com links para cada demo
+- `chartjs.html` — exemplo usando Chart.js
+- `highcharts.html` — exemplo usando Highcharts
+- `plotlyjs.html` — exemplo usando Plotly.js
+- `apexchart.html` — exemplo usando ApexCharts
+- `assets/` — imagens e recursos usados no projeto
+
+## ▶️ Como usar
+
+1. Abra `index.html` no navegador.
+2. Clique na biblioteca que deseja testar.
+3. Veja o gráfico combinado de barras e linha renderizado.
+
+> Para testar localmente com um servidor simples:
+> ```bash
+> python -m http.server 8000
+> ```
+> Em seguida, abra `http://localhost:8000`.
+
+## 📌 O que cada demo mostra
+
+- `chartjs.html`: gráfico combinado com barras e linha em Chart.js
+- `highcharts.html`: gráfico combinado com a API do Highcharts
+- `plotlyjs.html`: gráfico combinado interativo com Plotly.js
+- `apexchart.html`: gráfico combinado com ApexCharts
+
+## 🔗 Referências das bibliotecas
+
+- [Chart.js](https://www.chartjs.org/docs/latest/)
+- [Highcharts](https://www.highcharts.com/docs)
+- [Plotly.js](https://plotly.com/javascript/)
+- [ApexCharts](https://apexcharts.com/docs/)
+
+## 💡 Nota sobre o nome do repositório
+
+O nome atual `LibsGrafico` não é muito claro nem fácil de encontrar. O nome recomendado para este projeto é:
+
+- `combined-charts-demo`
+
+Esse nome deixa a proposta do projeto mais evidente e ajuda quem procura exemplos de gráficos combinados a encontrar o repositório rapidamente.
